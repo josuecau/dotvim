@@ -28,7 +28,7 @@ set gdefault
 set t_Co=256
 set clipboard=unnamed
 let mapleader = ","
-let NERDTreeShowHidden=1
+"let NERDTreeShowHidden=1
 nnoremap <F2> :NERDTreeToggle<CR>
 nnoremap <F3> :TagbarToggle<CR>
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
