@@ -31,4 +31,5 @@ let mapleader = ","
 "let NERDTreeShowHidden=1
 nnoremap <F2> :NERDTreeToggle<CR>
 nnoremap <F3> :TagbarToggle<CR>
+xnoremap p pgvy
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
