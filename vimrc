@@ -4,7 +4,7 @@ syntax on
 filetype plugin on
 set background=dark
 let g:solarized_termcolors=256
-let g:solarized_termtrans = 1
+let g:solarized_termtrans=1
 colorscheme solarized
 set fileformat=unix
 set encoding=utf-8
@@ -27,9 +27,11 @@ set cursorline
 set gdefault
 set t_Co=256
 set clipboard=unnamed
-let mapleader = ","
+let mapleader=","
+xnoremap p pgvy
 "let NERDTreeShowHidden=1
 nnoremap <F2> :NERDTreeToggle<CR>
 nnoremap <F3> :TagbarToggle<CR>
-xnoremap p pgvy
+nmap <Leader>a<Bar> :Tabularize /<Bar><CR>
+vmap <Leader>a<Bar> :Tabularize /<Bar><CR>
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
