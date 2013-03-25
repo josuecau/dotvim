@@ -7,7 +7,7 @@ let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 colorscheme solarized
 set fileformat=unix
-set encoding=utf-8
+set encoding=utf-8 nobomb
 set number
 set ruler
 set wrap
@@ -26,7 +26,11 @@ set softtabstop=4
 set cursorline
 set gdefault
 set t_Co=256
+set title
+set showmode
+set mouse=a
 set clipboard=unnamed
+set noerrorbells
 let mapleader=","
 xnoremap p pgvy
 "let NERDTreeShowHidden=1
