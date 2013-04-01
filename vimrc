@@ -6,6 +6,7 @@ set background=dark
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 colorscheme solarized
+set guifont=Monaco:h13
 set fileformat=unix
 set encoding=utf-8 nobomb
 set number
