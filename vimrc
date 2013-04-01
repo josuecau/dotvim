@@ -17,6 +17,7 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
+set showmatch
 set textwidth=79
 set formatoptions=qrn1
 set autoindent
@@ -26,6 +27,9 @@ set tabstop=4
 set softtabstop=4
 set cursorline
 set gdefault
+set spelllang=en,fr
+set spell
+set spellsuggest=5
 set t_Co=256
 set title
 set showmode
