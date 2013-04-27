@@ -41,6 +41,7 @@ xnoremap p pgvy
 "let NERDTreeShowHidden=1
 nnoremap <F2> :NERDTreeToggle<CR>
 nnoremap <F3> :TagbarToggle<CR>
+nnoremap <F4> :GundoToggle<CR>
 nmap <Leader>a<Bar> :Tabularize /<Bar><CR>
 vmap <Leader>a<Bar> :Tabularize /<Bar><CR>
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
