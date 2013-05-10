@@ -43,4 +43,7 @@ nnoremap <F3> :TagbarToggle<CR>
 nnoremap <F4> :GundoToggle<CR>
 nmap <Leader>a<Bar> :Tabularize /<Bar><CR>
 vmap <Leader>a<Bar> :Tabularize /<Bar><CR>
+" keep block highlighted when indenting
+vmap >> >gv
+vmap << <gv
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
