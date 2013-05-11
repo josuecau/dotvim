@@ -11,6 +11,7 @@ set encoding=utf-8 nobomb
 set number
 set ruler
 set wrap
+set linebreak
 set history=100
 set ignorecase
 set smartcase
@@ -46,4 +47,5 @@ vmap <Leader>a<Bar> :Tabularize /<Bar><CR>
 " keep block highlighted when indenting
 vmap >> >gv
 vmap << <gv
+autocmd FileType text setlocal formatprg=par\ -w80 formatoptions=1t noexpandtab complete+=s
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
