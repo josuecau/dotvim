@@ -26,16 +26,21 @@ set expandtab
 set tabstop=4
 set softtabstop=4
 set cursorline
+set nostartofline
 set gdefault
+set laststatus=2
 set spelllang=en,fr
 set spell
 set spellsuggest=5
 set t_Co=256
 set title
 set showmode
+set scrolloff=3
 set mouse=a
 set clipboard=unnamed
+set shortmess=atI
 set noerrorbells
+set wildmenu
 let mapleader=","
 xnoremap p pgvy
 "let NERDTreeShowHidden=1
