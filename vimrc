@@ -33,6 +33,7 @@ set spelllang=en,fr
 set spell
 set spellsuggest=5
 set t_Co=256
+set autoread
 set title
 set showmode
 set scrolloff=3
@@ -49,7 +50,6 @@ nnoremap <F3> :TagbarToggle<CR>
 nnoremap <F4> :GundoToggle<CR>
 nmap <Leader>a<Bar> :Tabularize /<Bar><CR>
 vmap <Leader>a<Bar> :Tabularize /<Bar><CR>
-" keep block highlighted when indenting
 vmap >> >gv
 vmap << <gv
 autocmd FileType text setlocal formatprg=par\ -w80 formatoptions=1t noexpandtab complete+=s
