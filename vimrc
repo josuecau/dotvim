@@ -43,6 +43,7 @@ set shortmess=atI
 set noerrorbells
 set wildmenu
 let mapleader=","
+let g:Powerline_symbols='fancy'
 xnoremap p pgvy
 "let NERDTreeShowHidden=1
 nnoremap <F2> :NERDTreeToggle<CR>

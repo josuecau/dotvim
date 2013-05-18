@@ -1,4 +1,4 @@
-set guifont=Menlo:h14
+set guifont=Menlo\ for\ Powerline:h14
 set guioptions-=T
 set backupcopy=yes
 set linespace=3
