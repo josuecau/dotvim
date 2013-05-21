@@ -18,6 +18,7 @@ set smartcase
 set incsearch
 set hlsearch
 set showmatch
+set iskeyword+=-
 set textwidth=79
 set formatoptions=qrn1
 set autoindent
@@ -33,6 +34,7 @@ set spelllang=en,fr
 set spell
 set spellsuggest=5
 set t_Co=256
+set hidden
 set autoread
 set title
 set showmode
@@ -53,5 +55,8 @@ nmap <Leader>a<Bar> :Tabularize /<Bar><CR>
 vmap <Leader>a<Bar> :Tabularize /<Bar><CR>
 vmap >> >gv
 vmap << <gv
+autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
+autocmd FileType html setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
 autocmd FileType text setlocal formatprg=par\ -w80 formatoptions=1t noexpandtab complete+=s
-autocmd FileType php set omnifunc=phpcomplete#CompletePHP
