@@ -43,6 +43,7 @@ set mouse=a
 set clipboard=unnamed
 set shortmess=atI
 set noerrorbells
+set viewoptions=cursor,folds,slash,unix
 set wildmenu
 let mapleader=","
 let g:Powerline_symbols='fancy'

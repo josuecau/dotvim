@@ -58,3 +58,6 @@
 [submodule "bundle/vim-powerline"]
 	path = bundle/vim-powerline
 	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "bundle/restore_view.vim"]
+	path = bundle/restore_view.vim
+	url = git://github.com/vim-scripts/restore_view.vim.git
