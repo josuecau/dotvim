@@ -5,6 +5,7 @@ filetype plugin on
 set background=dark
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
+let g:Powerline_symbols='fancy'
 colorscheme solarized
 set fileformat=unix
 set encoding=utf-8 nobomb
@@ -46,7 +47,6 @@ set noerrorbells
 set viewoptions=cursor,folds,slash,unix
 set wildmenu
 let mapleader=","
-let g:Powerline_symbols='fancy'
 xnoremap p pgvy
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
 "let NERDTreeShowHidden=1
@@ -55,8 +55,6 @@ nnoremap <F3> :TagbarToggle<CR>
 nnoremap <F4> :GundoToggle<CR>
 nmap <Leader>a<Bar> :Tabularize /<Bar><CR>
 vmap <Leader>a<Bar> :Tabularize /<Bar><CR>
-vmap >> >gv
-vmap << <gv
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
 autocmd FileType html setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
