@@ -48,6 +48,7 @@ set wildmenu
 let mapleader=","
 let g:Powerline_symbols='fancy'
 xnoremap p pgvy
+map <Leader>n <plug>NERDTreeTabsToggle<CR>
 "let NERDTreeShowHidden=1
 nnoremap <F2> :NERDTreeToggle<CR>
 nnoremap <F3> :TagbarToggle<CR>
