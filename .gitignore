@@ -5,5 +5,3 @@ Session.vim
 *~
 .DS_Store
 view/*
-
-bundle/phpcomplete.vim
