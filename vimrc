@@ -149,6 +149,9 @@ let g:ctrlp_cmd = 'CtrlP'
 " Paste multiple times
 xnoremap p pgvy
 
+" Toggle auto-indenting for code paste
+set pastetoggle=<F1>
+
 " NERDTree
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
 "let NERDTreeShowHidden=1
