@@ -150,6 +150,7 @@ let g:ctrlp_cmd = 'CtrlP'
 xnoremap p pgvy
 
 " Toggle auto-indenting for code paste
+nnoremap <F1> :set invpaste paste?<CR>
 set pastetoggle=<F1>
 
 " NERDTree
