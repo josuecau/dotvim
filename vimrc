@@ -168,6 +168,9 @@ nnoremap <F4> :GundoToggle<CR>
 nmap <Leader>a<Bar> :Tabularize /<Bar><CR>
 vmap <Leader>a<Bar> :Tabularize /<Bar><CR>
 
+" SuperTab
+let g:SuperTabDefaultCompletionType = "context"
+
 " Autocompletion
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
 autocmd FileType html setlocal omnifunc=htmlcomplete#CompleteTags
