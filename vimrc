@@ -153,6 +153,20 @@ xnoremap p pgvy
 nmap <silent> <F1> :set invpaste<CR>:set paste?<CR>
 imap <silent> <F1> <ESC>:set invpaste<CR>:set paste?<CR>
 
+" Toggle hlsearch with <leader>hs
+nmap <leader>hs :set hlsearch! hlsearch?<CR>
+
+" Format the entire file
+nmap <leader>ff ggVG=
+
+" Upper/lower word
+nmap <leader>u mQviwU`Q
+nmap <leader>l mQviwu`Q
+
+" Upper/lower first char of word
+nmap <leader>U mQgewvU`Q
+nmap <leader>L mQgewvu`Q
+
 " NERDTree
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
 "let NERDTreeShowHidden=1
