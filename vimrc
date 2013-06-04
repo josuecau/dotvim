@@ -135,7 +135,7 @@ set viewoptions=cursor,folds,slash,unix
 set wildmenu
 
 " Ignore this files
-set wildignore+=*.so,*.swp,*.zip
+set wildignore+=*.so,*.swp,._*,.git,.svn,*.zip,*.tar.gz,*.tar.bz2,*.rar
 
 " Map leader
 let mapleader = ","
@@ -149,9 +149,9 @@ let g:ctrlp_cmd = 'CtrlP'
 " Paste multiple times
 xnoremap p pgvy
 
-" Toggle auto-indenting for code paste
-nnoremap <F1> :set invpaste paste?<CR>
-set pastetoggle=<F1>
+" Toggle paste mode
+nmap <silent> <F1> :set invpaste<CR>:set paste?<CR>
+imap <silent> <F1> <ESC>:set invpaste<CR>:set paste?<CR>
 
 " NERDTree
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
