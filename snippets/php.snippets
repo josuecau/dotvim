@@ -14,13 +14,13 @@ snippet ?=
 snippet ?
 	<?php ${1} ?>
 snippet ?f
-	<?php foreach ($${1:vars} as $${2:$var}): ?>
+	<?php foreach ($${1:vars} as $${2:$var}) : ?>
 		${3}
-	<?php endforeach ?>
+	<?php endforeach; ?>
 snippet ?i
-	<?php if ($${1:var}): ?>
+	<?php if ($${1:var}) : ?>
 		${2}
-	<?php endif ?>
+	<?php endif; ?>
 snippet ns
 	namespace ${1:Foo\Bar\Baz};
 	${2}
