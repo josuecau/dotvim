@@ -79,3 +79,6 @@
 [submodule "bundle/quicktask"]
 	path = bundle/quicktask
 	url = git://github.com/aaronbieber/quicktask.git
+[submodule "bundle/vim-twig"]
+	path = bundle/vim-twig
+	url = git://github.com/evidens/vim-twig.git
