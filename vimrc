@@ -171,6 +171,7 @@ nmap <leader>L mQgewvu`Q
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
 "let NERDTreeShowHidden=1
 nnoremap <F2> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 " TagBar
 nnoremap <F3> :TagbarToggle<CR>
