@@ -180,8 +180,10 @@ nnoremap <F3> :TagbarToggle<CR>
 nnoremap <F4> :GundoToggle<CR>
 
 " Tabularize
-nmap <Leader>a<Bar> :Tabularize /<Bar><CR>
-vmap <Leader>a<Bar> :Tabularize /<Bar><CR>
+nmap <Leader>a= :Tabularize /=<CR>
+vmap <Leader>a= :Tabularize /=<CR>
+nmap <Leader>a: :Tabularize /:\zs<CR>
+vmap <Leader>a: :Tabularize /:\zs<CR>
 
 " SuperTab
 let g:SuperTabDefaultCompletionType = "context"
