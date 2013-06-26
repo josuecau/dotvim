@@ -168,6 +168,7 @@ nmap <leader>U mQgewvU`Q
 nmap <leader>L mQgewvu`Q
 
 " NERDTree
+let NERDTreeWinSize = 35
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
 "let NERDTreeShowHidden=1
 nnoremap <F2> :NERDTreeToggle<CR>
