@@ -149,6 +149,9 @@ let g:ctrlp_cmd = 'CtrlP'
 " Paste multiple times
 xnoremap p pgvy
 
+" Select current word 
+nmap <leader>w viw
+
 " Toggle paste mode
 nmap <silent> <F1> :set invpaste<CR>:set paste?<CR>
 imap <silent> <F1> <ESC>:set invpaste<CR>:set paste?<CR>
