@@ -159,6 +159,9 @@ nmap <leader>hs :set hlsearch! hlsearch?<CR>
 " Format the entire file
 nmap <leader>ff ggVG=
 
+" Select current word
+nmap <leader>w viw
+
 " Upper/lower word
 nmap <leader>u mQviwU`Q
 nmap <leader>l mQviwu`Q
