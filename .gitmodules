@@ -87,3 +87,6 @@
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
 	url = git@github.com:tpope/vim-repeat.git
+[submodule "bundle/skeletons.vim"]
+	path = bundle/skeletons.vim
+	url = git@github.com:tobyS/skeletons.vim.git
