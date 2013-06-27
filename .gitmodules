@@ -1,6 +1,7 @@
 [submodule "bundle/CSScomb-for-Vim"]
 	path = bundle/CSScomb-for-Vim
 	url = git://github.com/sdball/CSScomb-for-Vim.git
+    ignore = dirty
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
@@ -61,6 +62,7 @@
 [submodule "bundle/taglist.vim"]
 	path = bundle/taglist.vim
 	url = git://github.com/vim-scripts/taglist.vim.git
+    ignore = dirty
 [submodule "bundle/ctrlp.vim"]
 	path = bundle/ctrlp.vim
 	url = git://github.com/kien/ctrlp.vim.git
@@ -82,3 +84,6 @@
 [submodule "bundle/vim-twig"]
 	path = bundle/vim-twig
 	url = git://github.com/evidens/vim-twig.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = git@github.com:tpope/vim-repeat.git
