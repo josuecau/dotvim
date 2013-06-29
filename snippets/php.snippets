@@ -327,6 +327,7 @@ snippet try
 	try {
 		${2}
 	} catch (${1:Exception} $e) {
+		echo $e->getMessage();		
 	}
 # lambda with closure
 snippet lambda
