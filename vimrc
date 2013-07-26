@@ -112,6 +112,9 @@ set showmode
 " Keep 3 lines when scrolling
 set scrolloff=3
 
+" Lines to scroll when cursor leaves screen
+set scrolljump=3
+
 " Mouse support
 set mouse=a
 
