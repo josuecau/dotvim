@@ -176,6 +176,9 @@ nmap <leader>l mQviwu`Q
 nmap <leader>U mQgewvU`Q
 nmap <leader>L mQgewvu`Q
 
+" Use :w!! to sudo & write
+cmap w!! w !sudo tee % >/dev/null
+
 " NERDTree
 let NERDTreeWinSize = 35
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
