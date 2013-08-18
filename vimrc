@@ -152,8 +152,8 @@ let g:ctrlp_cmd = 'CtrlP'
 " Paste multiple times
 xnoremap p pgvy
 
-" Select current word 
-nmap <leader>w viw
+" Select current word and yank it
+nmap <leader>w viwygv
 
 " Toggle paste mode
 nmap <silent> <F1> :set invpaste<CR>:set paste?<CR>
@@ -164,9 +164,6 @@ nmap <leader>hs :set hlsearch! hlsearch?<CR>
 
 " Format the entire file
 nmap <leader>ff ggVG=
-
-" Select current word
-nmap <leader>w viw
 
 " Upper/lower word
 nmap <leader>u mQviwU`Q
