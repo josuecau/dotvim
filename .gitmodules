@@ -1,89 +1,89 @@
 [submodule "bundle/CSScomb-for-Vim"]
 	path = bundle/CSScomb-for-Vim
-	url = git://github.com/sdball/CSScomb-for-Vim.git
+	url = https://github.com/sdball/CSScomb-for-Vim.git
     ignore = dirty
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
-	url = git://github.com/scrooloose/syntastic.git
+	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
-	url = git://github.com/majutsushi/tagbar.git
+	url = https://github.com/majutsushi/tagbar.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = git://github.com/tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
-	url = git://github.com/airblade/vim-gitgutter.git
+	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/php-getter-setter.vim"]
 	path = bundle/php-getter-setter.vim
-	url = git://github.com/docteurklein/php-getter-setter.vim.git
+	url = https://github.com/docteurklein/php-getter-setter.vim.git
 [submodule "bundle/vim-nerdtree-tabs"]
 	path = bundle/vim-nerdtree-tabs
-	url = git://github.com/jistr/vim-nerdtree-tabs.git
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
-	url = git://github.com/scrooloose/nerdcommenter.git
+	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle/vim-autoclose"]
 	path = bundle/vim-autoclose
-	url = git://github.com/Townk/vim-autoclose.git
+	url = https://github.com/Townk/vim-autoclose.git
 [submodule "bundle/vim-javascript"]
 	path = bundle/vim-javascript
-	url = git://github.com/pangloss/vim-javascript.git
+	url = https://github.com/pangloss/vim-javascript.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
-	url = git://github.com/godlygeek/tabular.git
+	url = https://github.com/godlygeek/tabular.git
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
-	url = git://github.com/mileszs/ack.vim.git
+	url = https://github.com/mileszs/ack.vim.git
 [submodule "bundle/gundo.vim"]
 	path = bundle/gundo.vim
-	url = git://github.com/sjl/gundo.vim.git
+	url = https://github.com/sjl/gundo.vim.git
 [submodule "bundle/supertab"]
 	path = bundle/supertab
-	url = git://github.com/ervandew/supertab.git
+	url = https://github.com/ervandew/supertab.git
 [submodule "bundle/vim-powerline"]
 	path = bundle/vim-powerline
-	url = git://github.com/Lokaltog/vim-powerline.git
+	url = https://github.com/Lokaltog/vim-powerline.git
 [submodule "bundle/restore_view.vim"]
 	path = bundle/restore_view.vim
-	url = git://github.com/vim-scripts/restore_view.vim.git
+	url = https://github.com/vim-scripts/restore_view.vim.git
 [submodule "bundle/taglist.vim"]
 	path = bundle/taglist.vim
-	url = git://github.com/vim-scripts/taglist.vim.git
+	url = https://github.com/vim-scripts/taglist.vim.git
     ignore = dirty
 [submodule "bundle/ctrlp.vim"]
 	path = bundle/ctrlp.vim
-	url = git://github.com/kien/ctrlp.vim.git
+	url = https://github.com/kien/ctrlp.vim.git
 [submodule "bundle/phpcomplete.vim"]
 	path = bundle/phpcomplete.vim
-	url = git://github.com/shawncplus/phpcomplete.vim.git
+	url = https://github.com/shawncplus/phpcomplete.vim.git
 [submodule "bundle/tlib_vim"]
 	path = bundle/tlib_vim
-	url = git://github.com/tomtom/tlib_vim.git
+	url = https://github.com/tomtom/tlib_vim.git
 [submodule "bundle/vim-addon-mw-utils"]
 	path = bundle/vim-addon-mw-utils
-	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
 [submodule "bundle/vim-snipmate"]
 	path = bundle/vim-snipmate
-	url = git://github.com/garbas/vim-snipmate.git
+	url = https://github.com/garbas/vim-snipmate.git
 [submodule "bundle/quicktask"]
 	path = bundle/quicktask
-	url = git://github.com/aaronbieber/quicktask.git
+	url = https://github.com/aaronbieber/quicktask.git
 [submodule "bundle/vim-twig"]
 	path = bundle/vim-twig
-	url = git://github.com/evidens/vim-twig.git
+	url = https://github.com/evidens/vim-twig.git
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
-	url = git@github.com:tpope/vim-repeat.git
+	url = https://github.com/tpope/vim-repeat.git
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
-	url = git@github.com:mattn/emmet-vim.git
+	url = https://github.com/mattn/emmet-vim.git
