@@ -144,11 +144,6 @@ set wildignore+=*.so,*.swp,._*,.git,.svn,*.zip,*.tar.gz,*.tar.bz2,*.rar
 let mapleader = ","
 let g:mapleader = ","
 
-" CtrlP
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
-"let g:ctrlp_working_path_mode = 'ra'
-
 " Paste multiple times
 xnoremap p pgvy
 
@@ -177,11 +172,11 @@ nmap <leader>L mQgewvu`Q
 cmap w!! w !sudo tee % >/dev/null
 
 " NERDTree
+let NERDTreeChDirMode = 2
 let NERDTreeWinSize = 35
-map <Leader>n <plug>NERDTreeTabsToggle<CR>
-"let NERDTreeShowHidden=1
 nnoremap <F2> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+map <Leader>n <plug>NERDTreeTabsToggle<CR>
 
 " TagBar
 nnoremap <F3> :TagbarToggle<CR>
