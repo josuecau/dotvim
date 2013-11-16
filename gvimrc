@@ -1,5 +1,5 @@
 " Set the font in the GUI
-set guifont=Menlo\ for\ Powerline:h14
+set guifont=Meslo\ LG\ S\ Regular\ for\ Powerline:h14
 
 " Hide Gvim / MacVim top toolbar
 set guioptions-=T

@@ -199,3 +199,5 @@ autocmd FileType html setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
 autocmd FileType text setlocal formatprg=par\ -w80 formatoptions=1t noexpandtab complete+=s
+
+let g:airline_powerline_fonts = 1
