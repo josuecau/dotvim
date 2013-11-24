@@ -12,12 +12,16 @@ filetype indent on
 " Enable syntax highlighting
 syntax on
 
+" Remove swap and backup files from your working directory
+set backupdir=~/.vim/backup
+set directory=~/.vim/tmp
+
 " Set colorscheme
 set background=dark
 set t_Co=256
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
-let g:Powerline_symbols='fancy'
+let g:airline_powerline_fonts = 1
 colorscheme solarized
 
 " Use Unix as the standard file type
@@ -147,9 +151,6 @@ let g:mapleader = ","
 " Paste multiple times
 xnoremap p pgvy
 
-" Select current word and yank it
-nmap <leader>w viwygv
-
 " Toggle paste mode
 nmap <silent> <F1> :set invpaste<CR>:set paste?<CR>
 imap <silent> <F1> <ESC>:set invpaste<CR>:set paste?<CR>
@@ -192,12 +193,3 @@ vmap <Leader>a: :Tabularize /:\zs<CR>
 
 " SuperTab
 let g:SuperTabDefaultCompletionType = "context"
-
-" Autocompletion
-autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-autocmd FileType html setlocal omnifunc=htmlcomplete#CompleteTags
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
-autocmd FileType text setlocal formatprg=par\ -w80 formatoptions=1t noexpandtab complete+=s
-
-let g:airline_powerline_fonts = 1

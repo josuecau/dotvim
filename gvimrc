@@ -11,7 +11,7 @@ set guioptions+=c
 set backupcopy=yes
 
 " Increase linespace
-set linespace=2
+"set linespace=2
 
 " Disabling cursor blinking
 set guicursor+=a:blinkon0
