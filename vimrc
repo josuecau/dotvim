@@ -142,7 +142,7 @@ set viewoptions=cursor,folds,slash,unix
 set wildmenu
 
 " Ignore this files
-set wildignore+=*.so,*.swp,._*,.git,.svn,*.zip,*.tar.gz,*.tar.bz2,*.rar
+set wildignore+=*.so,*.swp,._*,.DS_Store,.git,.svn,*.zip,*.tar.gz,*.tar.bz2,*.rar
 
 " Map leader
 let mapleader = ","
