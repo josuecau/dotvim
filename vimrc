@@ -1,3 +1,6 @@
+" Load Pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+
 " Use vim, no vi defaults
 set nocompatible
 
