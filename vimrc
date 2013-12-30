@@ -45,8 +45,8 @@ set linebreak
 set textwidth=79
 set formatoptions=qrn1
 
-" Show a colored column at 85 characters
-set colorcolumn=85
+" Show a colored column at 80 characters
+set colorcolumn=80
 
 " Sets how many lines of history VIM has to remember
 set history=100
