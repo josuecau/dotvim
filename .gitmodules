@@ -1,7 +1,3 @@
-[submodule "bundle/CSScomb-for-Vim"]
-	path = bundle/CSScomb-for-Vim
-	url = https://github.com/sdball/CSScomb-for-Vim.git
-    ignore = dirty
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
