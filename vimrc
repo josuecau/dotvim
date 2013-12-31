@@ -49,7 +49,7 @@ set formatoptions=qrn1
 set colorcolumn=80
 
 " Sets how many lines of history VIM has to remember
-set history=100
+set history=1000
 
 " Ignore case when searching
 set ignorecase
@@ -78,14 +78,15 @@ set showmatch
 " Include dash as word separator
 set iskeyword+=-
 
-" Automatic indentation
-set autoindent
-
-" 4 spaces instead of tab
+" Indenting
+set autoindent smartindent
+set copyindent preserveindent
+set noexpandtab
+set shiftround
 set shiftwidth=4
-set expandtab
+set smarttab
+set softtabstop=0
 set tabstop=4
-set softtabstop=4
 
 " Highlight current line
 set cursorline
