@@ -1,16 +1,36 @@
-" Load Pathogen
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-
 " Use vim, no vi defaults
 set nocompatible
+filetype off
 
-" Include pathogen
-call pathogen#infect()
-call pathogen#helptags()
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
 
-" Enable filetype plugins
-filetype plugin on
-filetype indent on
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+Bundle 'airblade/vim-gitgutter'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'bling/vim-airline'
+Bundle 'godlygeek/tabular'
+Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'kien/ctrlp.vim'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'majutsushi/tagbar'
+Bundle 'mattn/emmet-vim'
+Bundle 'mileszs/ack.vim'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+Bundle 'SirVer/ultisnips'
+Bundle 'Townk/vim-autoclose'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-surround'
+Bundle 'Valloric/YouCompleteMe'
+
+" Enable plugins
+filetype plugin indent on
 
 " Enable syntax highlighting
 syntax on
@@ -190,9 +210,6 @@ map <Leader>n <plug>NERDTreeTabsToggle<CR>
 " TagBar
 nnoremap <F3> :TagbarToggle<CR>
 
-" Gundo
-nnoremap <F4> :GundoToggle<CR>
-
 " Tabularize
 nmap <Leader>a= :Tabularize /=<CR>
 vmap <Leader>a= :Tabularize /=<CR>
@@ -207,3 +224,4 @@ let g:syntastic_error_symbol = '✘'
 let g:syntastic_style_error_symbol = '>'
 let g:syntastic_warning_symbol = '⚠'
 let g:syntastic_style_warning_symbol = '>'
+

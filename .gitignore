@@ -4,6 +4,7 @@ Session.vim
 .netrwhist
 *~
 .DS_Store
-backup/*
-tmp/*
-view/*
+/backup/*
+/bundle/*
+/tmp/*
+/view/*
