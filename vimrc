@@ -17,16 +17,18 @@ Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'majutsushi/tagbar'
+Bundle 'marijnh/tern_for_vim'
 Bundle 'mattn/emmet-vim'
 Bundle 'mileszs/ack.vim'
+Bundle 'Raimondi/delimitMate'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Bundle 'SirVer/ultisnips'
-Bundle 'Townk/vim-autoclose'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
+Bundle 'Valloric/MatchTagAlways'
 Bundle 'Valloric/YouCompleteMe'
 
 " Enable plugins
@@ -164,7 +166,7 @@ set visualbell
 set noerrorbells
 
 " For restore_view plugin
-set viewoptions=cursor,folds,slash,unix
+"set viewoptions=cursor,folds,slash,unix
 
 " Turn on the WiLd menu
 set wildmenu
@@ -220,8 +222,11 @@ vmap <Leader>a: :Tabularize /:\zs<CR>
 let g:SuperTabDefaultCompletionType = "context"
 
 " Syntastic
+let g:syntastic_check_on_open = 1
 let g:syntastic_error_symbol = '✘'
 let g:syntastic_style_error_symbol = '>'
 let g:syntastic_warning_symbol = '⚠'
 let g:syntastic_style_warning_symbol = '>'
 
+" YouCompleteMe
+set completeopt-=preview
