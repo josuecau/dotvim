@@ -12,11 +12,14 @@ Bundle 'gmarik/vundle'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'bling/vim-airline'
+Bundle 'ervandew/supertab'
+Bundle 'garbas/vim-snipmate'
 Bundle 'godlygeek/tabular'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'majutsushi/tagbar'
+Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'marijnh/tern_for_vim'
 Bundle 'mattn/emmet-vim'
 Bundle 'mileszs/ack.vim'
@@ -24,12 +27,12 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
-Bundle 'SirVer/ultisnips'
+Bundle 'tomtom/tlib_vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
-Bundle 'Valloric/MatchTagAlways'
-Bundle 'Valloric/YouCompleteMe'
+Bundle 'vim-scripts/restore_view.vim'
+Bundle 'vim-scripts/taglist.vim'
 
 " Enable plugins
 filetype plugin indent on
@@ -48,6 +51,7 @@ let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 let g:airline_powerline_fonts = 1
 colorscheme solarized
+highlight SignColumn ctermbg=8
 
 " Use Unix as the standard file type
 set fileformat=unix
@@ -101,13 +105,16 @@ set showmatch
 set iskeyword+=-
 
 " Indenting
-set autoindent smartindent
-set copyindent preserveindent
-set noexpandtab
+set autoindent
+set backspace=indent,eol,start
+set smartindent
+set copyindent
+set preserveindent
+set expandtab
 set shiftround
 set shiftwidth=4
 set smarttab
-set softtabstop=0
+set softtabstop=4
 set tabstop=4
 
 " Highlight current line
@@ -166,7 +173,7 @@ set visualbell
 set noerrorbells
 
 " For restore_view plugin
-"set viewoptions=cursor,folds,slash,unix
+set viewoptions=cursor,folds,slash,unix
 
 " Turn on the WiLd menu
 set wildmenu
@@ -220,6 +227,7 @@ vmap <Leader>a: :Tabularize /:\zs<CR>
 
 " SuperTab
 let g:SuperTabDefaultCompletionType = "context"
+let g:SuperTabClosePreviewOnPopupClose = 1
 
 " Syntastic
 let g:syntastic_check_on_open = 1
@@ -228,5 +236,3 @@ let g:syntastic_style_error_symbol = '>'
 let g:syntastic_warning_symbol = '⚠'
 let g:syntastic_style_warning_symbol = '>'
 
-" YouCompleteMe
-set completeopt-=preview
