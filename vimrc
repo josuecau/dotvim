@@ -24,6 +24,7 @@ Bundle 'majutsushi/tagbar'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'marijnh/tern_for_vim'
 Bundle 'mattn/emmet-vim'
+Bundle 'plasticboy/vim-markdown'
 Bundle 'Raimondi/delimitMate'
 Bundle 'rking/ag.vim'
 Bundle 'scrooloose/nerdcommenter'
@@ -33,6 +34,7 @@ Bundle 'tomtom/tlib_vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
+Bundle 'vim-scripts/Better-CSS-Syntax-for-Vim'
 Bundle 'vim-scripts/restore_view.vim'
 Bundle 'vim-scripts/taglist.vim'
 
@@ -233,6 +235,7 @@ let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
 let g:SuperTabClosePreviewOnPopupClose = 1
 
 " Syntastic
+let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_check_on_open = 1
 let g:syntastic_error_symbol = '✘'
 let g:syntastic_style_error_symbol = '>'
