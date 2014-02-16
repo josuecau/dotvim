@@ -229,6 +229,7 @@ vmap <Leader>a: :Tabularize /:\zs<CR>
 
 " SuperTab
 let g:SuperTabDefaultCompletionType = "context"
+let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
 let g:SuperTabClosePreviewOnPopupClose = 1
 
 " Syntastic
