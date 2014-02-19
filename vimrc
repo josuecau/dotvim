@@ -6,7 +6,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
-" required! 
+" required!
 Bundle 'gmarik/vundle'
 
 Bundle 'airblade/vim-gitgutter'
@@ -74,6 +74,7 @@ set wrap
 set linebreak
 set textwidth=79
 set formatoptions=qrn1
+set showbreak=↪
 
 " Show a colored column at 80 characters
 set colorcolumn=80
@@ -84,7 +85,7 @@ set history=1000
 " Ignore case when searching
 set ignorecase
 
-" When searching try to be smart about cases 
+" When searching try to be smart about cases
 set smartcase
 
 " Highlight search results
@@ -107,6 +108,9 @@ set showmatch
 
 " Include dash as word separator
 set iskeyword+=-
+
+" Highlight trailing whitespaces
+match ErrorMsg '\s\+$'
 
 " Indenting
 set autoindent
@@ -160,12 +164,6 @@ set scrolloff=3
 " Lines to scroll when cursor leaves screen
 set scrolljump=3
 
-" Mouse support
-set mouse=a
-
-" Hide the mouse pointer while typing
-set mousehide
-
 " Accessing the system clipboard
 set clipboard=unnamed
 
@@ -199,8 +197,14 @@ imap <silent> <F1> <ESC>:set invpaste<CR>:set paste?<CR>
 " Toggle hlsearch with <leader>/
 nnoremap <silent> <Leader>/ :set hlsearch! hlsearch?<CR>
 
+" Delete trailing whitespaces
+nnoremap <Leader>tw :%s/\s\+$//e<CR>
+
 " Format the entire file
 nmap <leader>ff ggVG=
+
+" Re-hardwrap paragraphs of text
+nnoremap <leader>q gqip
 
 " Upper/lower word
 nmap <leader>u mQviwU`Q
@@ -212,6 +216,9 @@ nmap <leader>L mQgewvu`Q
 
 " Use :w!! to sudo & write
 cmap w!! w !sudo tee % >/dev/null
+
+" Open a new vertical split and switch over to it
+nnoremap <leader>w <C-w>v<C-w>l
 
 " NERDTree
 let NERDTreeChDirMode = 2

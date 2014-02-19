@@ -16,6 +16,12 @@ set backupcopy=yes
 " Disabling cursor blinking
 set guicursor+=a:blinkon0
 
+" Mouse support
+set mouse=a
+
+" Hide the mouse pointer while typing
+set mousehide
+
 " Dark background
 set background=dark
 
