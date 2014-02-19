@@ -196,8 +196,8 @@ xnoremap p pgvy
 nmap <silent> <F1> :set invpaste<CR>:set paste?<CR>
 imap <silent> <F1> <ESC>:set invpaste<CR>:set paste?<CR>
 
-" Toggle hlsearch with <leader>hs
-nmap <leader>hs :set hlsearch! hlsearch?<CR>
+" Toggle hlsearch with <leader>/
+nnoremap <silent> <Leader>/ :set hlsearch! hlsearch?<CR>
 
 " Format the entire file
 nmap <leader>ff ggVG=
@@ -231,7 +231,7 @@ vmap <Leader>a: :Tabularize /:\zs<CR>
 
 " SuperTab
 let g:SuperTabDefaultCompletionType = "context"
-let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
+let g:SuperTabContextDefaultCompletionType = "<c-n>"
 let g:SuperTabClosePreviewOnPopupClose = 1
 
 " Syntastic
