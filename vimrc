@@ -12,10 +12,11 @@ Bundle 'gmarik/vundle'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'bling/vim-airline'
-Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'ervandew/supertab'
+Bundle 'evidens/vim-twig'
 Bundle 'garbas/vim-snipmate'
 Bundle 'godlygeek/tabular'
+Bundle 'groenewege/vim-less'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
@@ -34,7 +35,6 @@ Bundle 'tomtom/tlib_vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
-Bundle 'vim-scripts/Better-CSS-Syntax-for-Vim'
 Bundle 'vim-scripts/restore_view.vim'
 Bundle 'vim-scripts/taglist.vim'
 
@@ -53,7 +53,9 @@ set background=dark
 set t_Co=256
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
-let g:airline_powerline_fonts = 1
+"let g:airline_powerline_fonts = 1
+let g:airline_left_sep=''
+let g:airline_right_sep=''
 colorscheme solarized
 highlight SignColumn ctermbg=8
 
@@ -109,9 +111,6 @@ set showmatch
 " Include dash as word separator
 set iskeyword+=-
 
-" Highlight trailing whitespaces
-match ErrorMsg '\s\+$'
-
 " Indenting
 set autoindent
 set backspace=indent,eol,start
@@ -149,14 +148,17 @@ set hidden
 " Set to auto read when a file is changed from the outside
 set autoread
 
-" enable setting title
+" Automatically change the current directory
+set autochdir
+
+" Enable setting title
 set title
 
-" configure title to look like: Vim /path/to/file
+" Configure title to look like: Vim /path/to/file
 set titlestring=VIM:\ %-25.55F\ %a%r%m titlelen=70
 
 " Show current vim mode
-set showmode
+set noshowmode
 
 " Keep 3 lines when scrolling
 set scrolloff=3

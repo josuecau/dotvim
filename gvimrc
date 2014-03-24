@@ -1,10 +1,10 @@
 " Set the font in the GUI
-set guifont=Meslo\ LG\ S\ Regular\ for\ Powerline:h14
+set guifont=Monaco:h15
 
 " Hide Gvim / MacVim top toolbar
 set guioptions-=T
 
-" Reload the files edited 
+" Reload the files edited
 set guioptions+=c
 
 " Make a copy of the file and overwrite the original one
