@@ -11,6 +11,7 @@ Bundle 'gmarik/vundle'
 
 Bundle 'airblade/vim-gitgutter'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'AndrewRadev/switch.vim'
 Bundle 'bling/vim-airline'
 Bundle 'ervandew/supertab'
 Bundle 'evidens/vim-twig'
@@ -221,6 +222,9 @@ cmap w!! w !sudo tee % >/dev/null
 
 " Open a new vertical split and switch over to it
 nnoremap <leader>w <C-w>v<C-w>l
+
+" Switch
+nnoremap - :Switch<cr>
 
 " NERDTree
 let NERDTreeChDirMode = 2
