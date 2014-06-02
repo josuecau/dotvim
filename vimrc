@@ -2,42 +2,44 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required!
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
-Bundle 'airblade/vim-gitgutter'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'AndrewRadev/switch.vim'
-Bundle 'bling/vim-airline'
-Bundle 'ervandew/supertab'
-Bundle 'evidens/vim-twig'
-Bundle 'garbas/vim-snipmate'
-Bundle 'godlygeek/tabular'
-Bundle 'groenewege/vim-less'
-Bundle 'jistr/vim-nerdtree-tabs'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'kien/ctrlp.vim'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'majutsushi/tagbar'
-Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'marijnh/tern_for_vim'
-Bundle 'mattn/emmet-vim'
-Bundle 'plasticboy/vim-markdown'
-Bundle 'Raimondi/delimitMate'
-Bundle 'rking/ag.vim'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/syntastic'
-Bundle 'tomtom/tlib_vim'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-surround'
-Bundle 'vim-scripts/restore_view.vim'
-Bundle 'vim-scripts/taglist.vim'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'AndrewRadev/switch.vim'
+Plugin 'bling/vim-airline'
+Plugin 'ervandew/supertab'
+Plugin 'evidens/vim-twig'
+Plugin 'garbas/vim-snipmate'
+Plugin 'godlygeek/tabular'
+Plugin 'groenewege/vim-less'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'kien/ctrlp.vim'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'majutsushi/tagbar'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'marijnh/tern_for_vim'
+Plugin 'mattn/emmet-vim'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'Raimondi/delimitMate'
+Plugin 'rking/ag.vim'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'tomtom/tlib_vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-surround'
+Plugin 'vim-scripts/restore_view.vim'
+Plugin 'vim-scripts/taglist.vim'
+
+call vundle#end()
 
 " Enable plugins
 filetype plugin indent on
@@ -120,10 +122,10 @@ set copyindent
 set preserveindent
 set expandtab
 set shiftround
-set shiftwidth=4
+set shiftwidth=2
 set smarttab
-set softtabstop=4
-set tabstop=4
+set softtabstop=2
+set tabstop=2
 
 " Highlight current line
 set cursorline
