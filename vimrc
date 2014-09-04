@@ -24,7 +24,7 @@ set background=dark
 set t_Co=256
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
-"let g:airline_powerline_fonts = 1
+"let g:airline_powerline_fonts=1
 let g:airline_left_sep=''
 let g:airline_right_sep=''
 colorscheme solarized
@@ -157,8 +157,8 @@ set wildmenu
 set wildignore+=*.so,*.swp,._*,.DS_Store,.git,.svn,*.zip,*.tar.gz,*.tar.bz2,*.rar
 
 " Map leader
-let mapleader = ","
-let g:mapleader = ","
+let mapleader=","
+let g:mapleader=","
 
 " Paste multiple times
 xnoremap p pgvy
@@ -197,8 +197,8 @@ nnoremap <leader>w <C-w>v<C-w>l
 nnoremap - :Switch<cr>
 
 " NERDTree
-let NERDTreeChDirMode = 2
-let NERDTreeWinSize = 35
+let NERDTreeChDirMode=2
+let NERDTreeWinSize=35
 nnoremap <F2> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
@@ -213,17 +213,17 @@ nmap <Leader>a: :Tabularize /:\zs<CR>
 vmap <Leader>a: :Tabularize /:\zs<CR>
 
 " SuperTab
-let g:SuperTabDefaultCompletionType = "context"
-let g:SuperTabContextDefaultCompletionType = "<c-n>"
-let g:SuperTabClosePreviewOnPopupClose = 1
+let g:SuperTabDefaultCompletionType="context"
+let g:SuperTabContextDefaultCompletionType="<c-n>"
+let g:SuperTabClosePreviewOnPopupClose=1
 
 " Syntastic
-let g:syntastic_javascript_checkers = ['jshint']
-let g:syntastic_check_on_open = 1
-let g:syntastic_error_symbol = '✘'
-let g:syntastic_style_error_symbol = '>'
-let g:syntastic_warning_symbol = '⚠'
-let g:syntastic_style_warning_symbol = '>'
+let g:syntastic_javascript_checkers=['jshint']
+let g:syntastic_check_on_open=1
+let g:syntastic_error_symbol='✘'
+let g:syntastic_style_error_symbol='>'
+let g:syntastic_warning_symbol='⚠'
+let g:syntastic_style_warning_symbol='>'
 
 " Mardown
-let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_folding_disabled=1
