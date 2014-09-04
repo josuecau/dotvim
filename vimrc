@@ -16,6 +16,7 @@ syntax on
 
 " Remove swap and backup files from your working directory
 set backupdir=~/.vim/backup
+set backupskip=/tmp/*,/private/tmp/*
 set directory=~/.vim/tmp
 
 " Set colorscheme
