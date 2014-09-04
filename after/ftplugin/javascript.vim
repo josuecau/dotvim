@@ -1,3 +1,3 @@
 setlocal omnifunc=javascriptcomplete#CompleteJS
-set iskeyword+=$
-set iskeyword-=.
+setlocal iskeyword+=$
+setlocal iskeyword-=.

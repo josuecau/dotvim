@@ -1,7 +1,8 @@
-set iskeyword+=#,.,-,%,@-@
+setlocal iskeyword+=#,.,-,%,@-@
 setlocal colorcolumn=
 let g:switch_custom_definitions =
     \ [
+    \   ['width:', 'height:'],
     \   ['left', 'right', 'top', 'bottom'],
     \   ['display: block;', 'display: none;', 'display: inline-block;'],
     \   ['font-weight: bold;', 'font-weight: normal;'],
