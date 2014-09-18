@@ -4,29 +4,28 @@ set nocompatible
 " Include plugins
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
-Plug 'altercation/vim-colors-solarized'
 Plug 'AndrewRadev/switch.vim'
 Plug 'bling/vim-airline'
-Plug 'cakebaker/scss-syntax.vim'
-Plug 'digitaltoad/vim-jade'
+Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
+Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ervandew/supertab'
-Plug 'evidens/vim-twig'
+Plug 'evidens/vim-twig', { 'for': 'twig' }
 Plug 'garbas/vim-snipmate'
-Plug 'gmarik/Vundle.vim'
-Plug 'groenewege/vim-less'
+Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'jistr/vim-nerdtree-tabs'
+Plug 'junegunn/seoul256.vim'
 Plug 'junegunn/vim-easy-align'
-Plug 'kchmck/vim-coffee-script'
+Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'kien/ctrlp.vim'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'majutsushi/tagbar'
 Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'marijnh/tern_for_vim'
+Plug 'marijnh/tern_for_vim', { 'for': 'javascript', 'do': 'npm update' }
 Plug 'mattn/emmet-vim'
 Plug 'mattn/gist-vim'
 Plug 'mattn/webapi-vim'
-Plug 'plasticboy/vim-markdown'
+Plug 'plasticboy/vim-markdown', { 'for': 'mkd' }
 Plug 'Raimondi/delimitMate'
 Plug 'rking/ag.vim'
 Plug 'scrooloose/nerdcommenter'
@@ -40,27 +39,15 @@ Plug 'vim-scripts/restore_view.vim'
 Plug 'vim-scripts/taglist.vim'
 call plug#end()
 
-" Enable plugins
-filetype plugin indent on
-
-" Enable syntax highlighting
-syntax on
-
 " Remove swap and backup files from your working directory
 set backupdir=~/.vim/backup
 set backupskip=/tmp/*,/private/tmp/*
 set directory=~/.vim/tmp
 
 " Set colorscheme
+let g:seoul256_background=234
+colorscheme seoul256
 set background=dark
-set t_Co=256
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
-"let g:airline_powerline_fonts=1
-let g:airline_left_sep=''
-let g:airline_right_sep=''
-colorscheme solarized
-highlight SignColumn ctermbg=8
 
 " Use Unix as the standard file type
 set fileformat=unix
@@ -234,6 +221,11 @@ let NERDTreeWinSize=35
 nnoremap <F2> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
+
+" Airline
+let g:airline_left_sep=''
+let g:airline_right_sep=''
+let g:airline_theme='monochrome'
 
 " TagBar
 nnoremap <F3> :TagbarToggle<CR>

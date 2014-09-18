@@ -10,9 +10,6 @@ set guioptions+=c
 " Make a copy of the file and overwrite the original one
 set backupcopy=yes
 
-" Increase linespace
-"set linespace=2
-
 " Disabling cursor blinking
 set guicursor+=a:blinkon0
 
@@ -22,8 +19,5 @@ set mouse=a
 " Hide the mouse pointer while typing
 set mousehide
 
-" Dark background
-set background=dark
-
-" Fix Solarized colorscheme toggle background
-call togglebg#map("")
+nnoremap <silent> <F5> :exec "colorscheme " .
+  \ ((g:colors_name == "seoul256") ? "seoul256-light" : "seoul256")<CR>
