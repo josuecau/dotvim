@@ -16,9 +16,9 @@ Plugin 'ervandew/supertab'
 Plugin 'evidens/vim-twig'
 Plugin 'garbas/vim-snipmate'
 Plugin 'gmarik/Vundle.vim'
-Plugin 'godlygeek/tabular'
 Plugin 'groenewege/vim-less'
 Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'junegunn/vim-easy-align'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/vim-easymotion'
@@ -240,11 +240,9 @@ map <Leader>n <plug>NERDTreeTabsToggle<CR>
 " TagBar
 nnoremap <F3> :TagbarToggle<CR>
 
-" Tabularize
-nmap <Leader>a= :Tabularize /=<CR>
-vmap <Leader>a= :Tabularize /=<CR>
-nmap <Leader>a: :Tabularize /:\zs<CR>
-vmap <Leader>a: :Tabularize /:\zs<CR>
+" Easy Align
+vmap <Enter> <Plug>(EasyAlign)
+nmap <Leader>a <Plug>(EasyAlign)
 
 " SuperTab
 let g:SuperTabDefaultCompletionType="context"
