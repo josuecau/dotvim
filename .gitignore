@@ -5,6 +5,6 @@ Session.vim
 *~
 .DS_Store
 /backup/*
-/bundle/*
+/plugged/*
 /tmp/*
 /view/*
