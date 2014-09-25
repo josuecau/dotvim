@@ -36,6 +36,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'vim-scripts/restore_view.vim'
+Plug 'vim-scripts/smarty-syntax', { 'for': 'smarty' }
 Plug 'vim-scripts/taglist.vim'
 call plug#end()
 
