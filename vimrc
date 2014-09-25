@@ -15,21 +15,20 @@ Plug 'garbas/vim-snipmate'
 Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'junegunn/seoul256.vim'
-Plug 'junegunn/vim-easy-align'
+Plug 'junegunn/vim-easy-align', { 'on': ['<Plug>(EasyAlign)', 'EasyAlign'] }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'kien/ctrlp.vim'
-Plug 'Lokaltog/vim-easymotion'
+Plug 'Lokaltog/vim-easymotion', { 'on': '<Plug>(easymotion-prefix)' }
 Plug 'majutsushi/tagbar'
 Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'marijnh/tern_for_vim', { 'for': 'javascript', 'do': 'npm update' }
 Plug 'mattn/emmet-vim'
-Plug 'mattn/gist-vim'
+Plug 'mattn/gist-vim', { 'on': 'Gist' }
 Plug 'mattn/webapi-vim'
 Plug 'plasticboy/vim-markdown', { 'for': 'mkd' }
 Plug 'Raimondi/delimitMate'
-Plug 'rking/ag.vim'
+Plug 'rking/ag.vim', { 'on': 'Ag' }
 Plug 'scrooloose/nerdcommenter'
-Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeTabsToggle' }
 Plug 'scrooloose/syntastic'
 Plug 'tomtom/tlib_vim'
 Plug 'tpope/vim-fugitive'
@@ -65,7 +64,7 @@ set ruler
 set wrap
 set linebreak
 set textwidth=79
-set formatoptions=qrn1
+set formatoptions=tcqrn1
 set showbreak=↪
 
 " Show a colored column at 80 characters
@@ -117,7 +116,8 @@ set tabstop=2
 " Highlight current line
 set cursorline
 
-" Prevent the cursor from changing the current column when jumping to other lines within the window
+" Prevent the cursor from changing the current column when jumping to other
+" lines within the window
 set nostartofline
 
 " Tell Vim to always put a status line in, even if there is only one window
@@ -169,11 +169,12 @@ set noerrorbells
 " For restore_view plugin
 set viewoptions=cursor,folds,slash,unix
 
-" Turn on the WiLd menu
+" Turn on the wild menu
 set wildmenu
 
 " Ignore this files
-set wildignore+=*.so,*.swp,._*,.DS_Store,.git,.svn,*.zip,*.tar.gz,*.tar.bz2,*.rar
+set wildignore+=*.so,*.swp,._*,.DS_Store,.git,.svn
+set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.dmg
 
 " Map leader
 let mapleader=","
@@ -210,7 +211,10 @@ nmap <leader>L mQgewvu`Q
 cmap w!! w !sudo tee % >/dev/null
 
 " Open a new vertical split and switch over to it
-nnoremap <leader>w <C-w>v<C-w>l
+nnoremap <leader>m <C-w>v<C-w>l
+
+" Easy Motion
+nmap <Leader> <Plug>(easymotion-prefix)
 
 " Switch
 nnoremap - :Switch<cr>
@@ -218,9 +222,7 @@ nnoremap - :Switch<cr>
 " NERDTree
 let NERDTreeChDirMode=2
 let NERDTreeWinSize=35
-nnoremap <F2> :NERDTreeToggle<CR>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-map <Leader>n <plug>NERDTreeTabsToggle<CR>
+nnoremap <F2> :NERDTreeTabsToggle<CR>
 
 " Airline
 let g:airline_left_sep=''
