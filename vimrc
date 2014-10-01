@@ -186,34 +186,33 @@ let g:mapleader=","
 xnoremap p pgvy
 
 " Toggle paste mode
-nmap <silent> <F1> :set invpaste<CR>:set paste?<CR>
-imap <silent> <F1> <ESC>:set invpaste<CR>:set paste?<CR>
+set pastetoggle=<F2>
 
-" Toggle hlsearch with <leader>/
+" Toggle hlsearch with <Leader>/
 nnoremap <silent> <Leader>/ :set hlsearch! hlsearch?<CR>
 
 " Delete trailing whitespaces
-nnoremap <Leader>tw :%s/\s\+$//e<CR>
+nnoremap <silent> <Leader>$ :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 
 " Format the entire file
-nmap <leader>ff ggVG=
+nnoremap <silent> <F6> ggVG=
 
 " Re-hardwrap paragraphs of text
-nnoremap <leader>q gqip
+nnoremap <Leader>q gqip
 
 " Upper/lower word
-nmap <leader>u mQviwU`Q
-nmap <leader>l mQviwu`Q
+nmap <Leader>u mQviwU`Q
+nmap <Leader>l mQviwu`Q
 
 " Upper/lower first char of word
-nmap <leader>U mQgewvU`Q
-nmap <leader>L mQgewvu`Q
+nmap <Leader>U mQgewvU`Q
+nmap <Leader>L mQgewvu`Q
 
 " Use :w!! to sudo & write
 cmap w!! w !sudo tee % >/dev/null
 
 " Open a new vertical split and switch over to it
-nnoremap <leader>m <C-w>v<C-w>l
+nnoremap <Leader>m <C-w>v<C-w>l
 
 " Easy Motion
 nmap <Leader> <Plug>(easymotion-prefix)
@@ -224,7 +223,7 @@ nnoremap - :Switch<cr>
 " NERDTree
 let NERDTreeChDirMode=2
 let NERDTreeWinSize=35
-nnoremap <F2> :NERDTreeTabsToggle<CR>
+nnoremap <silent> <F1> :NERDTreeTabsToggle<CR>
 
 " Airline
 let g:airline_left_sep=''
