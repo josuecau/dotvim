@@ -35,6 +35,7 @@ Plug 'tomtom/tlib_vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
+Plug 'vim-scripts/LargeFile'
 Plug 'vim-scripts/restore_view.vim'
 Plug 'vim-scripts/smarty-syntax', { 'for': 'smarty' }
 Plug 'vim-scripts/taglist.vim'
@@ -252,3 +253,6 @@ let g:syntastic_style_warning_symbol='>'
 
 " Mardown
 let g:vim_markdown_folding_disabled=1
+
+" LargeFile
+let g:LargeFile=2
