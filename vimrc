@@ -176,8 +176,9 @@ set viewoptions=cursor,folds,slash,unix
 set wildmenu
 
 " Ignore this files
-set wildignore+=*.so,*.swp,._*,.DS_Store,.git,.svn
-set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.dmg
+set wildignore+=.git,.svn,.hg
+set wildignore+=*.so,*.swp,*.sw,._*,.DS_Store
+set wildignore+=*.zip,*.tar,*.gz,*.bz2,*.rar
 
 " Map leader
 let mapleader=","
@@ -251,8 +252,19 @@ let g:syntastic_style_error_symbol='>'
 let g:syntastic_warning_symbol='⚠'
 let g:syntastic_style_warning_symbol='>'
 
+" CtrlP
+let g:ctrlp_working_path_mode='ra'
+
 " Mardown
 let g:vim_markdown_folding_disabled=1
 
 " LargeFile
 let g:LargeFile=2
+
+" Ag
+if executable('ag')
+  set grepprg=ag\ --nogroup\ --nocolor\ --column
+  set grepformat=%f:%l:%c%m
+  let g:ctrlp_user_command='ag %s -l --nocolor -g ""'
+  let g:ctrlp_use_caching=0
+endif
