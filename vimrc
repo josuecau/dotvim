@@ -59,6 +59,7 @@ set encoding=utf-8 nobomb
 
 " Display line numbers
 set number
+set numberwidth=5
 
 " Always show current position
 set ruler
@@ -66,12 +67,12 @@ set ruler
 " Wrap lines
 set wrap
 set linebreak
-set textwidth=79
+set textwidth=80
 set formatoptions=tcqrn1
 set showbreak=↪
 
 " Show a colored column at 80 characters
-set colorcolumn=80
+set colorcolumn=+1
 
 " Sets how many lines of history VIM has to remember
 set history=1000
