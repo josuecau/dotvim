@@ -46,6 +46,10 @@ set backupdir=~/.vim/backup
 set backupskip=/tmp/*,/private/tmp/*
 set directory=~/.vim/tmp
 
+" Persistent undo
+set undodir=~/.vim/undo
+set undofile
+
 " Set colorscheme
 let g:seoul256_background=234
 colorscheme seoul256
