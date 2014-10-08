@@ -1,1 +1,1 @@
-setlocal omnifunc=htmlcomplete#CompleteTags
+html.vim
