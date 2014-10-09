@@ -2,44 +2,9 @@
 set nocompatible
 
 " Include plugins
-call plug#begin('~/.vim/plugged')
-Plug 'airblade/vim-gitgutter'
-Plug 'AndrewRadev/switch.vim'
-Plug 'bling/vim-airline'
-Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
-Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
-Plug 'editorconfig/editorconfig-vim'
-Plug 'ervandew/supertab'
-Plug 'evidens/vim-twig', { 'for': 'twig' }
-Plug 'garbas/vim-snipmate'
-Plug 'groenewege/vim-less', { 'for': 'less' }
-Plug 'jistr/vim-nerdtree-tabs'
-Plug 'junegunn/seoul256.vim'
-Plug 'junegunn/vim-easy-align', { 'on': ['<Plug>(EasyAlign)', 'EasyAlign'] }
-Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
-Plug 'kien/ctrlp.vim'
-Plug 'Lokaltog/vim-easymotion', { 'on': '<Plug>(easymotion-prefix)' }
-Plug 'majutsushi/tagbar'
-Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'mattn/emmet-vim'
-Plug 'mattn/gist-vim', { 'on': 'Gist' }
-Plug 'mattn/webapi-vim'
-Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
-Plug 'plasticboy/vim-markdown', { 'for': 'mkd' }
-Plug 'Raimondi/delimitMate'
-Plug 'rking/ag.vim', { 'on': 'Ag' }
-Plug 'scrooloose/nerdcommenter'
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeTabsToggle' }
-Plug 'scrooloose/syntastic'
-Plug 'tomtom/tlib_vim'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-repeat'
-Plug 'tpope/vim-surround'
-Plug 'vim-scripts/LargeFile'
-Plug 'vim-scripts/restore_view.vim'
-Plug 'vim-scripts/smarty-syntax', { 'for': 'smarty' }
-Plug 'vim-scripts/taglist.vim'
-call plug#end()
+if filereadable(expand('~/.vim/plugins'))
+  source ~/.vim/plugins
+endif
 
 " Remove swap and backup files from your working directory
 set backupdir=~/.vim/backup
