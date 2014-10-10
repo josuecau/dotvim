@@ -152,6 +152,10 @@ set wildignore+=.git,.svn,.hg
 set wildignore+=*.so,*.swp,*.sw,._*,.DS_Store
 set wildignore+=*.zip,*.tar,*.gz,*.bz2,*.rar
 
+" More natural window split
+set splitbelow
+set splitright
+
 " Map leader
 let mapleader=","
 let g:mapleader=","
@@ -187,9 +191,6 @@ nmap <Leader>L mQgewvu`Q
 
 " Use :w!! to sudo & write
 cmap w!! w !sudo tee % >/dev/null
-
-" Open a new vertical split and switch over to it
-nnoremap <Leader>m <C-w>v<C-w>l
 
 " Easy Motion
 nmap <Leader> <Plug>(easymotion-prefix)
