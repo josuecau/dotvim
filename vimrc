@@ -67,6 +67,10 @@ set gdefault
 " Don't redraw while executing macros (good performance config)
 set lazyredraw
 
+" Fast terminal connection
+set ttyfast
+set ttyscroll=3
+
 " For regular expressions turn magic on
 set magic
 
