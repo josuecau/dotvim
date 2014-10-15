@@ -217,6 +217,8 @@ let g:airline_theme='monochrome'
 
 " TagBar
 nnoremap <F3> :TagbarToggle<CR>
+let g:tagbar_autoclose=1
+let g:tagbar_autofocus=1
 
 " Easy Align
 vmap <Enter> <Plug>(EasyAlign)
