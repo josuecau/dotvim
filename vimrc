@@ -37,7 +37,7 @@ set ruler
 set wrap
 set linebreak
 set textwidth=80
-set formatoptions=tcqrn1
+set formatoptions=qrn1
 set showbreak=↪
 
 " Show a colored column at 80 characters
