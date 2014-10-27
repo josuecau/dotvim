@@ -189,12 +189,11 @@ nnoremap <silent> <F6> ggVG=
 nnoremap <Leader>q gqip
 
 " Upper/lower word
-nmap <Leader>u mQviwU`Q
-nmap <Leader>l mQviwu`Q
+nnoremap <Leader>u mQviwU`Q
+nnoremap <Leader>l mQviwu`Q
 
-" Upper/lower first char of word
-nmap <Leader>U mQgewvU`Q
-nmap <Leader>L mQgewvu`Q
+" Capitalize word
+nnoremap <Leader>U mQgewvU`Q
 
 " Use :w!! to sudo & write
 cmap w!! w !sudo tee % >/dev/null
