@@ -127,7 +127,7 @@ set title
 " Configure title to look like: Vim /path/to/file
 set titlestring=VIM:\ %-25.55F\ %a%r%m titlelen=70
 
-" Show current vim mode
+" Airline already shows vim mode
 set noshowmode
 
 " Keep 3 lines when scrolling
