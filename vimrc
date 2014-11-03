@@ -164,8 +164,8 @@ set splitbelow
 set splitright
 
 " Map leader
-let mapleader=","
-let g:mapleader=","
+let mapleader="\<Space>"
+let g:mapleader="\<Space>"
 
 " Paste multiple times
 xnoremap p pgvy
