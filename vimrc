@@ -177,7 +177,7 @@ set pastetoggle=<F2>
 nnoremap <silent> <Leader>/ :set hlsearch! hlsearch?<CR>
 
 " Delete trailing whitespaces
-nnoremap <silent> <Leader>$ :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+nnoremap <silent> <Leader>$ :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>``
 
 " Keep cursor in place when join lines with J
 nnoremap J mzJ`z
