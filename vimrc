@@ -109,8 +109,8 @@ set spell
 set spellsuggest=5
 
 " Delay the timeout of key sequences
-set ttimeout
-set ttimeoutlen=50
+set timeoutlen=500
+set ttimeoutlen=0
 
 " Hides buffers instead of closing them
 set hidden
