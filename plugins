@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
 Plug 'akiyan/vim-textobj-php', { 'for': 'php' }
 Plug 'AndrewRadev/switch.vim'
+Plug 'ap/vim-css-color', { 'for': ['css', 'less', 'scss'] }
 Plug 'beloglazov/vim-textobj-quotes'
 Plug 'bling/vim-airline'
 Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
