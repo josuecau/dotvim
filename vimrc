@@ -235,6 +235,7 @@ let g:syntastic_style_warning_symbol='>'
 
 " CtrlP
 let g:ctrlp_working_path_mode='ra'
+let g:ctrlp_match_func={'match': 'matcher#cmatch'}
 
 " Mardown
 let g:vim_markdown_folding_disabled=1
