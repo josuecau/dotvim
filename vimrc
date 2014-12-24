@@ -2,8 +2,8 @@
 set nocompatible
 
 " Include plugins
-if filereadable(expand('~/.vim/plugins'))
-  source ~/.vim/plugins
+if filereadable(expand('~/.vim/plugins.vim'))
+  source ~/.vim/plugins.vim
 endif
 
 " Remove swap and backup files from your working directory
