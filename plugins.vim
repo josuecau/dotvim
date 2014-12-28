@@ -8,6 +8,7 @@ Plug 'beloglazov/vim-textobj-quotes'
 Plug 'bling/vim-airline'
 Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
 Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
+Plug 'dyng/ctrlsf.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ervandew/supertab'
 Plug 'evidens/vim-twig', { 'for': 'twig' }
@@ -35,7 +36,6 @@ Plug 'mattn/webapi-vim'
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'plasticboy/vim-markdown', { 'for': 'mkd' }
 Plug 'Raimondi/delimitMate'
-Plug 'rking/ag.vim', { 'on': 'Ag' }
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeTabsToggle' }
 Plug 'scrooloose/syntastic'
