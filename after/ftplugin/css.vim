@@ -11,7 +11,9 @@ let g:switch_custom_definitions=
   \   ['text-decoration: underline;', 'text-decoration: none;'],
   \   ['repeat', 'no-repeat'],
   \   ['relative', 'absolute', 'fixed', 'static'],
+  \   ['margin', 'padding'],
   \   ['overflow: hidden;', 'overflow: auto;', 'overflow: visible;'],
   \   [':first-child', ':last-child'],
-  \   [':before', ':after']
+  \   [':before', ':after'],
+  \   [':hover', ':focus', ':active']
   \ ]
