@@ -118,9 +118,6 @@ set hidden
 " Set to auto read when a file is changed from the outside
 set autoread
 
-" Automatically change the current directory
-set autochdir
-
 " Enable setting title
 set title
 
@@ -205,7 +202,7 @@ nmap <Leader> <Plug>(easymotion-prefix)
 nnoremap - :Switch<cr>
 
 " NERDTree
-let NERDTreeChDirMode=2
+let NERDTreeChDirMode=1
 let NERDTreeWinSize=35
 nnoremap <silent> <F1> :NERDTreeTabsToggle<CR>
 
