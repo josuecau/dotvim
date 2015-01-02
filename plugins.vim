@@ -47,6 +47,6 @@ Plug 'vim-scripts/LargeFile'
 Plug 'vim-scripts/restore_view.vim'
 Plug 'vim-scripts/smarty-syntax', { 'for': 'smarty' }
 Plug 'vim-scripts/taglist.vim'
-Plug 'whatyouhide/vim-textobj-xmlattr', { 'for': ['html', 'xml', 'php', 'twig'] }
+Plug 'whatyouhide/vim-textobj-xmlattr', { 'for': ['html', 'xml', 'xhtml', 'php', 'twig'] }
 
 call plug#end()
