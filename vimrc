@@ -221,9 +221,10 @@ vmap <Enter> <Plug>(EasyAlign)
 nmap <Leader>a <Plug>(EasyAlign)
 
 " SuperTab
-let g:SuperTabDefaultCompletionType="context"
-let g:SuperTabContextDefaultCompletionType="<c-n>"
 let g:SuperTabClosePreviewOnPopupClose=1
+let g:SuperTabContextDefaultCompletionType='<c-n>'
+let g:SuperTabCrMapping=1
+let g:SuperTabDefaultCompletionType='context'
 
 " Syntastic
 let g:syntastic_javascript_checkers=['jshint']
