@@ -1,5 +1,3 @@
-call plug#begin('~/.vim/plugged')
-
 Plug 'airblade/vim-gitgutter'
 Plug 'akiyan/vim-textobj-php', { 'for': 'php' }
 Plug 'AndrewRadev/switch.vim'
@@ -48,5 +46,3 @@ Plug 'vim-scripts/restore_view.vim'
 Plug 'vim-scripts/smarty-syntax', { 'for': 'smarty' }
 Plug 'vim-scripts/taglist.vim'
 Plug 'whatyouhide/vim-textobj-xmlattr', { 'for': ['html', 'xml', 'xhtml', 'php', 'twig'] }
-
-call plug#end()

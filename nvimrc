@@ -1,18 +1,17 @@
-" Use vim, no vi defaults
-set nocompatible
-
 " Include plugins
-if filereadable(expand('~/.vim/plugins.vim'))
-  source ~/.vim/plugins.vim
+if filereadable(expand('~/.nvim/plugins.vim'))
+  call plug#begin('~/.nvim/plugged')
+  source ~/.nvim/plugins.vim
+  call plug#end()
 endif
 
 " Remove swap and backup files from your working directory
-set backupdir=~/.vim/backup
+set backupdir=~/.nvim/backup
 set backupskip=/tmp/*,/private/tmp/*
-set directory=~/.vim/tmp
+set directory=~/.nvim/tmp
 
 " Persistent undo
-set undodir=~/.vim/undo
+set undodir=~/.nvim/undo
 set undofile
 
 " Set colorscheme
@@ -22,9 +21,6 @@ set background=dark
 
 " Use Unix as the standard file type
 set fileformat=unix
-
-" Set utf8 as standard encoding
-set encoding=utf-8 nobomb
 
 " Display line numbers
 set number
@@ -68,7 +64,6 @@ set gdefault
 set lazyredraw
 
 " Fast terminal connection
-set ttyfast
 set ttyscroll=3
 
 " For regular expressions turn magic on
