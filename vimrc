@@ -1,17 +1,17 @@
 " Include plugins
-if filereadable(expand('~/.nvim/plugins.vim'))
-  call plug#begin('~/.nvim/plugged')
-  source ~/.nvim/plugins.vim
+if filereadable(expand('~/.vim/plugins.vim'))
+  call plug#begin('~/.vim/plugged')
+  source ~/.vim/plugins.vim
   call plug#end()
 endif
 
 " Remove swap and backup files from your working directory
-set backupdir=~/.nvim/backup
+set backupdir=~/.vim/backup
 set backupskip=/tmp/*,/private/tmp/*
-set directory=~/.nvim/tmp
+set directory=~/.vim/tmp
 
 " Persistent undo
-set undodir=~/.nvim/undo
+set undodir=~/.vim/undo
 set undofile
 
 " Set colorscheme

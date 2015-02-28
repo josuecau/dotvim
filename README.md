@@ -10,10 +10,12 @@ Not The Ultimate Vim Configuration, only mine.
 
 ### Installation
 
-    $ git clone https://github.com/josuecau/dotvim.git ~/.nvim
-    $ mkdir -p ~/.nvim/autoload
-    $ curl -fLo ~/.nvim/autoload/plug.vim \
+    $ git clone https://github.com/josuecau/dotvim.git ~/.vim
+    $ mkdir -p ~/.vim/autoload
+    $ curl -fLo ~/.vim/autoload/plug.vim \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    $ ln -s ~/.nvim/nvimrc ~/.nvimrc
+    $ ln -s ~/.vim ~/.nvim
+    $ ln -s ~/.vim/vimrc ~/.vimrc
+    $ ln -s ~/.vim/vimrc ~/.nvimrc
 
 Launch Vim and run `:PlugInstall`
