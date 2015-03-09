@@ -5,6 +5,7 @@ Plug 'ap/vim-css-color', { 'for': ['css', 'less', 'scss'] }
 Plug 'beloglazov/vim-textobj-quotes'
 Plug 'bling/vim-airline'
 Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
+Plug 'deris/vim-textobj-email'
 Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
 Plug 'dyng/ctrlsf.vim'
 Plug 'editorconfig/editorconfig-vim'
