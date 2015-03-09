@@ -40,7 +40,7 @@ set showbreak=↪
 set colorcolumn=+1
 
 " Long lines slow down Vim
-set synmaxcol=512
+set synmaxcol=256
 
 " Sets how many lines of history VIM has to remember
 set history=1000
