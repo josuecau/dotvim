@@ -1,6 +1,6 @@
 setlocal omnifunc=csscomplete#CompleteCSS
 setlocal iskeyword+=#,.,-,%,@-@
-let g:switch_custom_definitions=
+let b:switch_custom_definitions=
   \ [
   \   ['width:', 'height:'],
   \   ['min-', 'max-'],
