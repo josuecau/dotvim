@@ -156,6 +156,9 @@ set splitright
 let mapleader="\<Space>"
 let g:mapleader="\<Space>"
 
+" Disable suspending Vim (use Tmux instead)
+nnoremap <C-z> <Nop>
+
 " Paste multiple times
 xnoremap p pgvy
 
