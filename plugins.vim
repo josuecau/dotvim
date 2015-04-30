@@ -14,10 +14,10 @@ Plug 'evidens/vim-twig', { 'for': 'twig' }
 Plug 'garbas/vim-snipmate'
 Plug 'glts/vim-textobj-comment'
 Plug 'groenewege/vim-less', { 'for': 'less' }
-Plug 'JazzCore/ctrlp-cmatcher', { 'do': './install.sh ' }
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'josuecau/vim-textobj-cssprop', { 'for': ['css', 'less', 'scss'] }
 Plug 'Julian/vim-textobj-brace'
+Plug 'junegunn/fzf', { 'do': 'yes \| ./install' }
 Plug 'junegunn/seoul256.vim'
 Plug 'junegunn/vim-easy-align', { 'on': ['<Plug>(EasyAlign)', 'EasyAlign'] }
 Plug 'kana/vim-textobj-entire'
@@ -25,7 +25,6 @@ Plug 'kana/vim-textobj-indent', { 'for': ['coffee', 'jade', 'yaml'] }
 Plug 'kana/vim-textobj-line'
 Plug 'kana/vim-textobj-user'
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
-Plug 'kien/ctrlp.vim'
 Plug 'Lokaltog/vim-easymotion', { 'on': '<Plug>(easymotion-prefix)' }
 Plug 'majutsushi/tagbar'
 Plug 'MarcWeber/vim-addon-mw-utils'
