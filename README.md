@@ -4,7 +4,7 @@ Not The Ultimate Vim Configuration, only mine.
 
 ### Prerequisites
 
-* [Neovim](https://github.com/neovim/neovim/wiki/Installing)
+* [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 * [Python client for Neovim](https://github.com/neovim/python-client)
 * [The Silver Searcher (Ag)](http://geoff.greer.fm/ag/)
 * [FZF](https://github.com/junegunn/fzf)
