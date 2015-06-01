@@ -5,6 +5,7 @@ Plug 'ap/vim-css-color', { 'for': ['css', 'less', 'scss'] }
 Plug 'beloglazov/vim-textobj-quotes'
 Plug 'bling/vim-airline'
 Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
+Plug 'chriskempson/base16-vim'
 Plug 'deris/vim-textobj-email'
 Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
 Plug 'dyng/ctrlsf.vim'
@@ -18,7 +19,6 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'josuecau/vim-textobj-cssprop', { 'for': ['css', 'less', 'scss'] }
 Plug 'Julian/vim-textobj-brace'
 Plug 'junegunn/fzf', { 'do': 'yes \| ./install' }
-Plug 'junegunn/seoul256.vim'
 Plug 'junegunn/vim-easy-align', { 'on': ['<Plug>(EasyAlign)', 'EasyAlign'] }
 Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-indent', { 'for': ['coffee', 'jade', 'yaml'] }

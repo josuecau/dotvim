@@ -15,8 +15,7 @@ set undodir=~/.vim/undo
 set undofile
 
 " Set colorscheme
-let g:seoul256_background=234
-colorscheme seoul256
+colorscheme base16-default
 set background=dark
 
 " Use Unix as the standard file type
@@ -204,7 +203,7 @@ nnoremap <silent> <F1> :NERDTreeTabsToggle<CR>
 " Airline
 let g:airline_left_sep=''
 let g:airline_right_sep=''
-let g:airline_theme='monochrome'
+let g:airline_theme='base16'
 
 " TagBar
 nnoremap <F3> :TagbarToggle<CR>
