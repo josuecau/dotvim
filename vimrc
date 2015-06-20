@@ -23,7 +23,6 @@ set fileformat=unix
 
 " Display line numbers
 set number
-set numberwidth=5
 
 " Prevent Vim from showing '@' when a line doesn't fit on screen
 set display+=lastline
