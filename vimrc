@@ -25,6 +25,9 @@ set fileformat=unix
 set number
 set numberwidth=5
 
+" Prevent Vim from showing '@' when a line doesn't fit on screen
+set display+=lastline
+
 " Always show current position
 set ruler
 
