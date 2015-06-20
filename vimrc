@@ -71,6 +71,10 @@ set showmatch
 " Include dash as word separator
 set iskeyword+=-
 
+" Increment / decrement numbers and letters
+set nrformats-=octal
+set nrformats+=alpha
+
 " Indenting
 set autoindent
 set backspace=indent,eol,start
