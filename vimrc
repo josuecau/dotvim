@@ -228,6 +228,9 @@ let g:syntastic_style_error_symbol='>'
 let g:syntastic_warning_symbol='⚠'
 let g:syntastic_style_warning_symbol='>'
 
+" FZF
+nnoremap <Leader>z :FZF<CR>
+
 " CtrlSF
 nmap <Leader>g <Plug>CtrlSFPrompt
 vmap <Leader>g <Plug>CtrlSFVwordPath
