@@ -124,6 +124,7 @@ set noshowmode
 
 " Keep 3 lines when scrolling
 set scrolloff=3
+set sidescrolloff=5
 
 " Lines to scroll when cursor leaves screen
 set scrolljump=3
