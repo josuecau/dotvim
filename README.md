@@ -4,8 +4,6 @@ Not The Ultimate Vim Configuration, only mine.
 
 ### Prerequisites
 
-* [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
-* [Python client for Neovim](https://github.com/neovim/python-client)
 * [The Silver Searcher (Ag)](http://geoff.greer.fm/ag/)
 * [FZF](https://github.com/junegunn/fzf)
 
@@ -14,8 +12,11 @@ Not The Ultimate Vim Configuration, only mine.
     $ git clone https://github.com/josuecau/dotvim.git ~/.vim
     $ curl -fLo ~/.vim/autoload/plug.vim \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    $ ln -s ~/.vim ~/.nvim
     $ ln -s ~/.vim/vimrc ~/.vimrc
+
+Additionally for Neovim:
+
+    $ ln -s ~/.vim ~/.nvim
     $ ln -s ~/.vim/vimrc ~/.nvimrc
 
-Launch Vim and run `:PlugInstall`
+Launch Vim, run `:PlugInstall` and relaunch Vim.
