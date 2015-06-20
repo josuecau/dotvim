@@ -12,7 +12,6 @@ Not The Ultimate Vim Configuration, only mine.
 ### Installation
 
     $ git clone https://github.com/josuecau/dotvim.git ~/.vim
-    $ mkdir -p ~/.vim/autoload
     $ curl -fLo ~/.vim/autoload/plug.vim \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     $ ln -s ~/.vim ~/.nvim
