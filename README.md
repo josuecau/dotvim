@@ -2,11 +2,6 @@
 
 Not The Ultimate Vim Configuration, only mine.
 
-### Prerequisites
-
-* [The Silver Searcher (Ag)](http://geoff.greer.fm/ag/)
-* [FZF](https://github.com/junegunn/fzf)
-
 ### Installation
 
     $ git clone https://github.com/josuecau/dotvim.git ~/.vim
