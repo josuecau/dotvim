@@ -241,7 +241,6 @@ nnoremap <Leader>z :FZF<CR>
 " CtrlSF
 nmap <Leader>g <Plug>CtrlSFPrompt
 vmap <Leader>g <Plug>CtrlSFVwordPath
-let g:ctrlsf_leading_space=5
 let g:ctrlsf_position='right'
 
 " Mardown
