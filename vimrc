@@ -196,7 +196,7 @@ nnoremap <Leader>U mQgewvU`Q
 " Use :w!! to sudo & write
 cmap w!! w !sudo tee % >/dev/null
 
-" Easy Motion
+" EasyMotion
 nmap <Leader> <Plug>(easymotion-prefix)
 
 " Switch

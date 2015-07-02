@@ -9,6 +9,7 @@ Plug 'chriskempson/base16-vim'
 Plug 'deris/vim-textobj-email'
 Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
 Plug 'dyng/ctrlsf.vim'
+Plug 'easymotion/vim-easymotion', { 'on': '<Plug>(easymotion-prefix)' }
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ervandew/supertab'
 Plug 'evidens/vim-twig', { 'for': 'twig' }
@@ -25,7 +26,6 @@ Plug 'kana/vim-textobj-indent', { 'for': ['coffee', 'jade', 'yaml'] }
 Plug 'kana/vim-textobj-line'
 Plug 'kana/vim-textobj-user'
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
-Plug 'Lokaltog/vim-easymotion', { 'on': '<Plug>(easymotion-prefix)' }
 Plug 'majutsushi/tagbar'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'mattn/emmet-vim'
