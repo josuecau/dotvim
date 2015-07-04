@@ -21,6 +21,9 @@ set background=dark
 " Use Unix as the standard file type
 set fileformat=unix
 
+" No mouse
+set mouse=
+
 " Display line numbers
 set number
 
