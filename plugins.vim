@@ -8,6 +8,7 @@ Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
 Plug 'chriskempson/base16-vim'
 Plug 'deris/vim-textobj-email'
 Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
+Plug 'docker/docker', { 'for': 'Dockerfile', 'rtp': '/contrib/syntax/vim' }
 Plug 'dyng/ctrlsf.vim'
 Plug 'easymotion/vim-easymotion', { 'on': '<Plug>(easymotion-prefix)' }
 Plug 'editorconfig/editorconfig-vim'
