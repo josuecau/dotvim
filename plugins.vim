@@ -19,6 +19,7 @@ Plug 'glts/vim-textobj-comment'
 Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'josuecau/vim-textobj-cssprop', { 'for': ['css', 'less', 'scss'] }
+Plug 'JulesWang/css.vim', { 'for': 'css' }
 Plug 'Julian/vim-textobj-brace'
 Plug 'junegunn/fzf', { 'do': 'yes \| ./install', 'on': 'FZF' }
 Plug 'junegunn/vim-easy-align', { 'on': ['<Plug>(EasyAlign)', 'EasyAlign'] }
