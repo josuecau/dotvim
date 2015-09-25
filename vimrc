@@ -177,6 +177,9 @@ set pastetoggle=<F2>
 " Toggle hlsearch with <Leader>/
 nnoremap <silent> <Leader>/ :set hlsearch! hlsearch?<CR>
 
+" Search for current selection
+vnoremap <Leader>/ yq/p<CR>
+
 " Delete trailing whitespaces
 nnoremap <silent> <Leader>$ :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>``
 
