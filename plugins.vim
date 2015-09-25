@@ -8,7 +8,6 @@ Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
 Plug 'chriskempson/base16-vim'
 Plug 'deris/vim-textobj-email'
 Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
-Plug 'docker/docker', { 'for': 'Dockerfile', 'rtp': '/contrib/syntax/vim' }
 Plug 'dyng/ctrlsf.vim'
 Plug 'easymotion/vim-easymotion', { 'on': '<Plug>(easymotion-prefix)' }
 Plug 'editorconfig/editorconfig-vim'
@@ -18,6 +17,7 @@ Plug 'garbas/vim-snipmate'
 Plug 'genoma/vim-less', { 'for': 'less' }
 Plug 'glts/vim-textobj-comment'
 Plug 'jistr/vim-nerdtree-tabs'
+Plug 'josuecau/vim-docker-syntax', { 'for': 'dockerfile' }
 Plug 'josuecau/vim-textobj-cssprop', { 'for': ['css', 'less', 'scss'] }
 Plug 'JulesWang/css.vim', { 'for': 'css' }
 Plug 'Julian/vim-textobj-brace'
