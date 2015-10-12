@@ -34,6 +34,7 @@ Plug 'mattn/emmet-vim'
 Plug 'mattn/gist-vim', { 'on': 'Gist' }
 Plug 'mattn/vim-textobj-url'
 Plug 'mattn/webapi-vim'
+Plug 'moskytw/nginx-contrib-vim'
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'plasticboy/vim-markdown', { 'for': 'mkd' }
 Plug 'Raimondi/delimitMate'
