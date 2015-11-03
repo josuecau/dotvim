@@ -11,7 +11,6 @@ Not The Ultimate Vim Configuration, only mine.
 
 Additionally for Neovim:
 
-    $ ln -s ~/.vim ~/.nvim
-    $ ln -s ~/.vim/vimrc ~/.nvimrc
+    $ ln -s ~/.vim ~/.config/nvim
 
 Launch Vim, run `:PlugInstall` and relaunch Vim.
