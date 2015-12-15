@@ -21,7 +21,8 @@ Plug 'josuecau/vim-docker-syntax', { 'for': 'dockerfile' }
 Plug 'josuecau/vim-textobj-cssprop', { 'for': ['css', 'less', 'scss'] }
 Plug 'JulesWang/css.vim', { 'for': 'css' }
 Plug 'Julian/vim-textobj-brace'
-Plug 'junegunn/fzf', { 'do': 'yes \| ./install', 'on': 'FZF' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-easy-align', { 'on': ['<Plug>(EasyAlign)', 'EasyAlign'] }
 Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-indent', { 'for': ['coffee', 'jade', 'yaml'] }
