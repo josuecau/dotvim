@@ -38,6 +38,7 @@ Plug 'moskytw/nginx-contrib-vim'
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'plasticboy/vim-markdown', { 'for': 'mkd' }
 Plug 'Raimondi/delimitMate'
+Plug 'rizzatti/dash.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeTabsToggle' }
 Plug 'scrooloose/syntastic'
