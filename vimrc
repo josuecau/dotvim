@@ -216,7 +216,6 @@ nnoremap <silent> <F1> :NERDTreeTabsToggle<CR>
 " Airline
 let g:airline_left_sep=''
 let g:airline_right_sep=''
-let g:airline_theme='base16'
 
 " TagBar
 nnoremap <F3> :TagbarToggle<CR>

@@ -3,7 +3,6 @@ Plug 'akiyan/vim-textobj-php', { 'for': 'php' }
 Plug 'AndrewRadev/switch.vim'
 Plug 'ap/vim-css-color', { 'for': ['css', 'less', 'scss'] }
 Plug 'beloglazov/vim-textobj-quotes'
-Plug 'bling/vim-airline'
 Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
 Plug 'chriskempson/base16-vim'
 Plug 'deris/vim-textobj-email'
@@ -46,6 +45,8 @@ Plug 'tomtom/tlib_vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-scripts/LargeFile'
 Plug 'vim-scripts/restore_view.vim'
 Plug 'vim-scripts/smarty-syntax', { 'for': 'smarty' }
