@@ -27,7 +27,6 @@ Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-indent', { 'for': ['coffee', 'jade', 'yaml'] }
 Plug 'kana/vim-textobj-line'
 Plug 'kana/vim-textobj-user'
-Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'majutsushi/tagbar'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'mattn/emmet-vim'
@@ -42,6 +41,7 @@ Plug 'rizzatti/dash.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeTabsToggle' }
 Plug 'scrooloose/syntastic'
+Plug 'strogonoff/vim-coffee-script', { 'for': 'coffee' }
 Plug 'tomtom/tlib_vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
