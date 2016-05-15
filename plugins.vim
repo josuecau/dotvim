@@ -43,7 +43,6 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeTabsToggle' }
 Plug 'scrooloose/syntastic'
 Plug 'strogonoff/vim-coffee-script', { 'for': 'coffee' }
 Plug 'tomtom/tlib_vim'
-Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
