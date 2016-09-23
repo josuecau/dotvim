@@ -212,8 +212,10 @@ nmap <Leader> <Plug>(easymotion-prefix)
 nnoremap - :Switch<cr>
 
 " NERDTree
-let NERDTreeChDirMode=1
-let NERDTreeWinSize=35
+let g:NERDTreeChDirMode=1
+let g:NERDTreeWinSize=35
+let g:NERDTreeDirArrowExpandable='▸'
+let g:NERDTreeDirArrowCollapsible='▾'
 nnoremap <silent> <F1> :NERDTreeTabsToggle<CR>
 
 " Airline
