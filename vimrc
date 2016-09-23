@@ -150,7 +150,10 @@ set viewoptions=cursor,folds,slash,unix
 " Turn on the wild menu
 set wildmenu
 set wildmode=list:longest,full
-set wildignorecase
+
+if exists('+wildignorecase')
+  set wildignorecase
+endif
 
 " Ignore this files
 set wildignore+=.git,.svn,.hg
