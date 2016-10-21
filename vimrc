@@ -16,7 +16,6 @@ set undofile
 
 " Set colorscheme
 silent! colorscheme base16-default-dark
-set background=dark
 
 " Use Unix as the standard file type
 set fileformat=unix
