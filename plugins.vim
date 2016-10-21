@@ -2,7 +2,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'akiyan/vim-textobj-php', { 'for': 'php' }
 Plug 'AndrewRadev/switch.vim'
 Plug 'ap/vim-css-color', { 'for': ['css', 'less', 'scss'] }
-Plug 'beloglazov/vim-textobj-quotes'
 Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
 Plug 'chriskempson/base16-vim'
 Plug 'deris/vim-textobj-email'
@@ -37,7 +36,6 @@ Plug 'moskytw/nginx-contrib-vim'
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'plasticboy/vim-markdown', { 'for': 'mkd' }
 Plug 'Raimondi/delimitMate'
-Plug 'rizzatti/dash.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeTabsToggle' }
 Plug 'scrooloose/syntastic'
