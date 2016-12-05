@@ -38,7 +38,6 @@ Plug 'plasticboy/vim-markdown', { 'for': 'mkd' }
 Plug 'Raimondi/delimitMate'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeTabsToggle' }
-Plug 'scrooloose/syntastic'
 Plug 'strogonoff/vim-coffee-script', { 'for': 'coffee' }
 Plug 'tomtom/tlib_vim'
 Plug 'tpope/vim-repeat'
@@ -48,4 +47,5 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-scripts/LargeFile'
 Plug 'vim-scripts/restore_view.vim'
 Plug 'vim-scripts/smarty-syntax', { 'for': 'smarty' }
+Plug 'vim-syntastic/syntastic'
 Plug 'whatyouhide/vim-textobj-xmlattr', { 'for': ['html', 'xml', 'xhtml', 'php', 'twig'] }
