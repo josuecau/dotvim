@@ -238,6 +238,7 @@ let g:SuperTabDefaultCompletionType='context'
 
 " Syntastic
 let g:syntastic_javascript_checkers=['eslint']
+let g:syntastic_rust_checkers=['rustc']
 let g:syntastic_check_on_open=1
 let g:syntastic_error_symbol='✘'
 let g:syntastic_style_error_symbol='>'
