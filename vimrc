@@ -254,9 +254,6 @@ nmap <Leader>g <Plug>CtrlSFPrompt
 vmap <Leader>g <Plug>CtrlSFVwordPath
 let g:ctrlsf_position='right'
 
-" Mardown
-let g:vim_markdown_folding_disabled=1
-
 " LargeFile
 let g:LargeFile=2
 
