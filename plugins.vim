@@ -16,7 +16,6 @@ Plug 'garbas/vim-snipmate'
 Plug 'glts/vim-textobj-comment'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'josuecau/vim-textobj-cssprop', { 'for': ['css', 'less', 'scss'] }
-Plug 'JulesWang/css.vim', { 'for': 'css' }
 Plug 'Julian/vim-textobj-brace'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
