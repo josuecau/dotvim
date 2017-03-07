@@ -13,7 +13,6 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'ervandew/supertab'
 Plug 'evidens/vim-twig', { 'for': 'twig' }
 Plug 'garbas/vim-snipmate'
-Plug 'genoma/vim-less', { 'for': 'less' }
 Plug 'glts/vim-textobj-comment'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'josuecau/vim-textobj-cssprop', { 'for': ['css', 'less', 'scss'] }
