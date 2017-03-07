@@ -213,8 +213,6 @@ nnoremap - :Switch<cr>
 " NERDTree
 let g:NERDTreeChDirMode=1
 let g:NERDTreeWinSize=35
-let g:NERDTreeDirArrowExpandable='▸'
-let g:NERDTreeDirArrowCollapsible='▾'
 nnoremap <silent> <F1> :NERDTreeTabsToggle<CR>
 let g:nerdtree_tabs_synchronize_view=0
 
