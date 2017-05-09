@@ -214,7 +214,6 @@ nnoremap - :Switch<cr>
 let g:NERDTreeChDirMode=1
 let g:NERDTreeWinSize=35
 nnoremap <silent> <F1> :NERDTreeTabsToggle<CR>
-let g:nerdtree_tabs_synchronize_view=0
 
 " Airline
 let g:airline_left_sep=''
