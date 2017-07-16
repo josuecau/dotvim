@@ -3,6 +3,7 @@ Plug 'akiyan/vim-textobj-php', { 'for': 'php' }
 Plug 'AndrewRadev/switch.vim'
 Plug 'ap/vim-css-color', { 'for': ['css', 'less', 'scss'] }
 Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
+Plug 'cespare/vim-toml'
 Plug 'chriskempson/base16-vim'
 Plug 'deris/vim-textobj-email'
 Plug 'digitaltoad/vim-pug', { 'for': ['jade', 'pug'] }
