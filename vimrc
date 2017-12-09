@@ -9,6 +9,7 @@ endif
 set backupdir=~/.vim/backup
 set backupskip=/tmp/*,/private/tmp/*
 set directory=~/.vim/tmp
+set viewdir=~/.vim/view
 
 " Persistent undo
 set undodir=~/.vim/undo
