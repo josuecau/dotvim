@@ -36,6 +36,7 @@ Plug 'Raimondi/delimitMate'
 Plug 'rust-lang/rust.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeTabsToggle' }
+Plug 'sirtaj/vim-openscad', { 'for': 'openscad' }
 Plug 'strogonoff/vim-coffee-script', { 'for': 'coffee' }
 Plug 'tomtom/tlib_vim'
 Plug 'tpope/vim-repeat'
