@@ -205,6 +205,9 @@ nnoremap <Leader>U mQgewvU`Q
 " Use :w!! to sudo & write
 cmap w!! w !sudo tee % >/dev/null
 
+" ALE
+let g:ale_lint_on_text_changed='never'
+
 " EasyMotion
 nmap <Leader> <Plug>(easymotion-prefix)
 
@@ -234,15 +237,6 @@ let g:SuperTabClosePreviewOnPopupClose=1
 let g:SuperTabContextDefaultCompletionType='<c-n>'
 let g:SuperTabCrMapping=1
 let g:SuperTabDefaultCompletionType='context'
-
-" Syntastic
-let g:syntastic_rust_checkers=['rustc']
-let g:syntastic_javascript_checkers=['standard']
-let g:syntastic_check_on_open=1
-let g:syntastic_error_symbol='✘'
-let g:syntastic_style_error_symbol='>'
-let g:syntastic_warning_symbol='⚠'
-let g:syntastic_style_warning_symbol='>'
 
 " FZF
 nnoremap <Leader>z :FZF<CR>

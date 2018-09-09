@@ -45,5 +45,5 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-scripts/LargeFile'
 Plug 'vim-scripts/restore_view.vim'
-Plug 'vim-syntastic/syntastic'
+Plug 'w0rp/ale'
 Plug 'whatyouhide/vim-textobj-xmlattr', { 'for': ['html', 'xml', 'xhtml', 'php', 'twig'] }
