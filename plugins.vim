@@ -4,7 +4,7 @@ Plug 'AndrewRadev/switch.vim'
 Plug 'ap/vim-css-color', { 'for': ['css', 'less', 'scss'] }
 Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
 Plug 'cespare/vim-toml'
-Plug 'chriskempson/base16-vim'
+Plug 'chriskempson/base16-vim', { 'commit': '1a6e691' }
 Plug 'deris/vim-textobj-email'
 Plug 'digitaltoad/vim-pug', { 'for': ['jade', 'pug'] }
 Plug 'dyng/ctrlsf.vim'
