@@ -32,6 +32,7 @@ Plug 'mattn/vim-textobj-url'
 Plug 'mattn/webapi-vim'
 Plug 'moskytw/nginx-contrib-vim'
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+Plug 'posva/vim-vue', { 'for': 'vue' }
 Plug 'Raimondi/delimitMate'
 Plug 'rust-lang/rust.vim'
 Plug 'scrooloose/nerdcommenter'
