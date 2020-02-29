@@ -206,7 +206,9 @@ nnoremap <Leader>U mQgewvU`Q
 cmap w!! w !sudo tee % >/dev/null
 
 " ALE
-let g:ale_lint_on_text_changed='never'
+let g:ale_lint_on_text_changed=0
+let g:ale_lint_on_insert_leave=0
+let g:ale_lint_on_enter=0
 
 " EasyMotion
 nmap <Leader> <Plug>(easymotion-prefix)
