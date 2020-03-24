@@ -221,6 +221,9 @@ let g:NERDTreeChDirMode=1
 let g:NERDTreeWinSize=35
 nnoremap <silent> <F1> :NERDTreeTabsToggle<CR>
 
+" NERDCommenter
+let g:NERDSpaceDelims=1
+
 " Airline
 let g:airline_left_sep=''
 let g:airline_right_sep=''
