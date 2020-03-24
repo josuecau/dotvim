@@ -260,4 +260,5 @@ endif
 " EditorConfig
 if executable('editorconfig')
   let g:EditorConfig_core_mode='external_command'
+  let g:EditorConfig_exec_path=exepath('editorconfig')
 endif
