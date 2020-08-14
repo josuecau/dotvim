@@ -190,7 +190,7 @@ nnoremap <silent> <Leader>$ :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl
 nnoremap J mzJ`z
 
 " Format the entire file
-nnoremap <silent> <F6> ggVG=
+nnoremap <silent> <F6> gg=G``
 
 " Re-hardwrap paragraphs of text
 nnoremap <Leader>q gqip
