@@ -5,6 +5,7 @@ Plug 'ap/vim-css-color', { 'for': ['css', 'less', 'scss'] }
 Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
 Plug 'cespare/vim-toml'
 Plug 'chriskempson/base16-vim', { 'commit': '1a6e691' }
+Plug 'dense-analysis/ale'
 Plug 'deris/vim-textobj-email'
 Plug 'digitaltoad/vim-pug', { 'for': ['jade', 'pug'] }
 Plug 'dyng/ctrlsf.vim'
@@ -47,5 +48,4 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-scripts/LargeFile'
 Plug 'vim-scripts/restore_view.vim'
 Plug 'vito-c/jq.vim'
-Plug 'w0rp/ale'
 Plug 'whatyouhide/vim-textobj-xmlattr', { 'for': ['html', 'xml', 'xhtml', 'php', 'twig'] }
